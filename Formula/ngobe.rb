@@ -2,28 +2,28 @@
 class Ngobe < Formula
   desc "Coding agent for local models with live, official-source verification"
   homepage "https://github.com/ngobe-ai/ngobe-cli"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ngobe-ai/ngobe-cli/releases/download/v0.2.1/ngobe-darwin-arm64.tar.gz"
-      sha256 "0704cb8112e7145f5591d06ab68c9ba1eb19bb0a17592eef53e2bf04eeb08862"
+      url "https://github.com/ngobe-ai/ngobe-cli/releases/download/v0.2.2/ngobe-darwin-arm64.tar.gz"
+      sha256 "22430502404a51ad650cb8bd9ca26d995cd3720df46e2ead2bb08b2721bdcd5c"
     end
     on_intel do
-      url "https://github.com/ngobe-ai/ngobe-cli/releases/download/v0.2.1/ngobe-darwin-x64.tar.gz"
-      sha256 "35a5e079035b21fbf887103981620b1d4f2b661efbd1f4bbde7650cb7f09e81f"
+      url "https://github.com/ngobe-ai/ngobe-cli/releases/download/v0.2.2/ngobe-darwin-x64.tar.gz"
+      sha256 "795d3b8add13661d6b167d6ca975c7ba54391ec5c16cbf90f33c7168602a067e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngobe-ai/ngobe-cli/releases/download/v0.2.1/ngobe-linux-arm64.tar.gz"
-      sha256 "a4c3d57812873dc0c215e6b32b601c966bb2eb1cee04c28e7cf5221d61e82e1a"
+      url "https://github.com/ngobe-ai/ngobe-cli/releases/download/v0.2.2/ngobe-linux-arm64.tar.gz"
+      sha256 "dc85bddb613d302fa5a64c56a6aa4ba1b88c76ef816e84c96f1398505c0fe5fc"
     end
     on_intel do
-      url "https://github.com/ngobe-ai/ngobe-cli/releases/download/v0.2.1/ngobe-linux-x64.tar.gz"
-      sha256 "30f671430e7757c685aa45f1584d8bb433d202bfb7bb0ebaff3dc4de4df1fc39"
+      url "https://github.com/ngobe-ai/ngobe-cli/releases/download/v0.2.2/ngobe-linux-x64.tar.gz"
+      sha256 "34658329b154f9de2525df99f8e3f43b1716dd9b808abf0a41b49591837ff55d"
     end
   end
 
